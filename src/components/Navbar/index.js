@@ -7,6 +7,9 @@ return (
 	<>
 	<Nav>
 		<NavMenu>
+        <NavLink to="/Home" activeStyle>
+			Home
+            </NavLink>
 		<NavLink to="/about" activeStyle>
 			About
 		</NavLink>
@@ -14,11 +17,14 @@ return (
 			Contact Us
 		</NavLink>
 		<NavLink to="/blogs" activeStyle>
-			Blogs
+			Reserve
 		</NavLink>
 		<NavLink to="/sign-up" activeStyle>
-			Sign Up
+			Queries
 		</NavLink>
+		{/* <NavLink to="/query1" activeStyle>
+			Query1
+	</NavLink>	 */}
 		</NavMenu>
 	</Nav>
 	</>

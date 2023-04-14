@@ -9,6 +9,7 @@ return (
     <p style={{fontSize: "14px"}}>
 This is a website that allows users to browse data analytics about the past olympic games
 </p>
+
 	</div>
 );
 };
