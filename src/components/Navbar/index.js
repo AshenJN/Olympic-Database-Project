@@ -7,9 +7,9 @@ return (
 	<>
 	<Nav>
 		<NavMenu>
-        <NavLink to="/Home" activeStyle>
+        {/* <NavLink to="/Home" activeStyle>
 			Home
-            </NavLink>
+            </NavLink> */}
 		<NavLink to="/about" activeStyle>
 			About
 		</NavLink>
