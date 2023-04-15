@@ -17,7 +17,7 @@ return (
 			Contact Us
 		</NavLink>
 		<NavLink to="/blogs" activeStyle>
-			Reserve
+			 Database
 		</NavLink>
 		<NavLink to="/sign-up" activeStyle>
 			Queries

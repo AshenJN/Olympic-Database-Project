@@ -11,6 +11,9 @@ import Contact from './pages/contact';
 import Main from './pages/index';
 import Q1 from './pages/query1';
 import Q2 from './pages/query2';
+import Q3 from './pages/query3';
+import Q4 from './pages/query4';
+import Q5 from './pages/query5';
 
 function App() {
 return (
@@ -25,6 +28,9 @@ return (
     <Route path='/index' Component={<Main/>} />
     <Route path='/query1' element={<Q1 />} />
     <Route path='/query2' element={<Q2 />} />
+	<Route path='/query3' element={<Q3 />} />
+    <Route path='/query4' element={<Q4 />} />
+	<Route path='/query5' element={<Q5 />} />
 	</Routes>
 	</Router>
 
