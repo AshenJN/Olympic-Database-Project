@@ -1,35 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import olym from "./images/Olympic.png";
+import axios from "axios";
+
 const About = () => {
-  const oracledb = require("oracledb");
-  const config = {
-    user: "",
-    password: "",
-    connectString: "oracle.cise.ufl.edu/orcl",
-  };
-
-  async function getAthletes() {
-    let conn;
-
-    try {
-      conn = await oracledb.getConnection(config);
-
-      const result = await conn.execute(
-        'select * from "SMITHSTEPHEN"."ATHLETE_EVENT"'
-      );
-
-      console.log(result.rows);
-    } catch (err) {
-      console.log("Ouch!", err);
-    } finally {
-      if (conn) {
-        // conn assignment worked, need to close
-        await conn.close();
-      }
-    }
-  }
-
-  getAthletes();
+  useEffect(() => {
+    axios
+      .get("http://localhost:3001/data")
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
 
   return (
     <div>
@@ -44,6 +27,3 @@ const About = () => {
 };
 
 export default About;
-{
-  /*width="300" height="200"*/
-}
