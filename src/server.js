@@ -17,9 +17,9 @@ const oracledb = require("oracledb");
 
 // Configure database connection details
 const dbConfig = {
-  user: "",
-  password: "",
-  connectString: "",
+  user: "t.toranzo",
+  password: "HHkQSo0HiVzg7pEZ7i19zDuP",
+  connectString: "oracle.cise.ufl.edu/orcl",
 };
 
 // Define API endpoint that queries the database and returns the result
@@ -38,7 +38,8 @@ app.get("/data", async (req, res) => {
 
     // Return the query result
 
-    console.log(result.row);
+    console.log("Attempting to print data");
+    console.log(result.rows);
 
     res.send(result.rows);
   } catch (err) {
