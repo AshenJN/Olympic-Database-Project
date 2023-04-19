@@ -5,7 +5,7 @@ import axios from "axios";
 const About = () => {
   useEffect(() => {
     axios
-      .get("http://localhost:3001/data")
+      .get("http://127.0.0.1:3001/data")
       .then((response) => {
         console.log(response.data);
       })
