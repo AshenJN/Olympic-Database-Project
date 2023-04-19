@@ -17,9 +17,9 @@ const oracledb = require("oracledb");
 
 // Configure database connection details
 const dbConfig = {
-  user: "t.toranzo",
-  password: "HHkQSo0HiVzg7pEZ7i19zDuP",
-  connectString: "oracle.cise.ufl.edu/orcl",
+  user: "",
+  password: "",
+  connectString: "",
 };
 
 // Define API endpoint that queries the database and returns the result
