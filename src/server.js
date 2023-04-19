@@ -1,5 +1,3 @@
-//Server must be run in terminal with "node ./server.js"
-//result = undefined??
 const express = require("express");
 const cors = require("cors");
 const app = express();
@@ -15,40 +13,33 @@ app.use(function (req, res, next) {
 
 const oracledb = require("oracledb");
 
-// Configure database connection details
 const dbConfig = {
   user: "t.toranzo",
-  password: "HHkQSo0HiVzg7pEZ7i19zDuP",
+  password: "rF0Z1g2kk1LmaQ2JGOeRUPjd",
   connectString: "oracle.cise.ufl.edu/orcl",
 };
 
-// Define API endpoint that queries the database and returns the result
 app.get("/data", async (req, res) => {
   try {
-    // Connect to the database
     const connection = await oracledb.getConnection(dbConfig);
 
-    // Execute a SQL query
-    const result = await connection.execute(
-      'SELECT * from "SMITHSTEPHEN"."ATHLETE_EVENTS"'
-    );
+    const queries = JSON.parse(req.query.queries);
 
-    // Release the connection
+    const results = [];
+    for (const query of queries) {
+      const result = await connection.execute(query);
+      results.push(result.rows);
+    }
+
     await connection.close();
 
-    // Return the query result
-
-    console.log("Attempting to print data");
-    console.log(result.rows);
-
-    res.send(result.rows);
+    res.send(results);
   } catch (err) {
     console.error(err);
     res.status(500).send("Error querying database");
   }
 });
 
-// Start the server
 app.listen(3001, () => {
   console.log("Server listening on port 3001");
 });
