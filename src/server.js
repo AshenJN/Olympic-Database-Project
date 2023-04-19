@@ -14,9 +14,9 @@ app.use(function (req, res, next) {
 const oracledb = require("oracledb");
 
 const dbConfig = {
-  user: "t.toranzo",
-  password: "rF0Z1g2kk1LmaQ2JGOeRUPjd",
-  connectString: "oracle.cise.ufl.edu/orcl",
+  user: "",
+  password: "",
+  connectString: "",
 };
 
 app.get("/data", async (req, res) => {
