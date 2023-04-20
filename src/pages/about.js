@@ -23,22 +23,15 @@ const About = () => {
 
   const getQueryData = () => {
     const query1 = `
-    (SELECT region, year, medal, COUNT(*) as medal_count
-    FROM SMITHSTEPHEN.earn e, SMITHSTEPHEN.athlete a, SMITHSTEPHEN.NOC_REGIONS n
-    WHERE e.uniqueID = a.uniqueID AND a.noc = n.noc AND e.medal = 'Gold'
-    GROUP BY region, year, medal
-    ) UNION
-    (SELECT region, year, medal, COUNT(*) as silver_count
-    FROM SMITHSTEPHEN.earn e, SMITHSTEPHEN.athlete a, SMITHSTEPHEN.noc_regions n
-    WHERE e.uniqueID = a.uniqueID AND a.noc = n.noc AND e.medal = 'Silver'
-    GROUP BY region, year, medal
-    ) UNION
-    (SELECT region, year, medal, COUNT(*) as bronze_count
-
-    FROM SMITHSTEPHEN.earn e, SMITHSTEPHEN.athlete a, SMITHSTEPHEN.noc_regions n
-    WHERE e.uniqueID = a.uniqueID AND a.noc = n.noc AND e.medal = 'Bronze'
-    GROUP BY region, year, medal
-    ) ORDER BY region, year ASC
+    SELECT region, year, 
+    SUM(CASE WHEN medal = 'Gold' THEN 1 ELSE 0 END) AS gold_count,
+    SUM(CASE WHEN medal = 'Silver' THEN 1 ELSE 0 END) AS silver_count,
+    SUM(CASE WHEN medal = 'Bronze' THEN 1 ELSE 0 END) AS bronze_count
+FROM SMITHSTEPHEN.earn e 
+JOIN SMITHSTEPHEN.athlete a ON e.uniqueID = a.uniqueID 
+JOIN SMITHSTEPHEN.noc_regions n ON a.noc = n.noc
+GROUP BY region, year
+ORDER BY year
   `;
 
     const query2 = `
