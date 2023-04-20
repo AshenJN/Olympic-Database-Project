@@ -3,9 +3,9 @@ import React from 'react';
 const Blogs = () => {
 return (
 	<div>
-	<h1>This is the original database</h1>
+	<h1>Original Database</h1>
 	<p style={{fontSize: "14px"}}>
-	Link to Original database:</p>
+	Click the following link below to see the original database:</p>
 	 
  
 	<li>

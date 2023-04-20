@@ -5,7 +5,7 @@ return (
 	<div>
 	<h1>Email us at groupOlympics@gmail.com</h1>
     <p style={{fontSize: "14px"}}>
-   Our members include:<br /><br />
+    Our members include:<br /><br />
     Sofia Celestrin <br /><br />
     Yifan Zhu<br /><br />
     Jaime Toranzo<br /><br />
