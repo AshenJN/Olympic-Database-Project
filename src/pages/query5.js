@@ -7,8 +7,13 @@ render(){
 	<h1>query5</h1>
 
 	<p style={{fontSize: "14px"}}>
-	Query 5: The trend of how BMI ((Height/100)/(weight^2) affects athletes performance in each event based on medal count. Webpage will show a trend line of BMI vs medal count that is interactive. There will be different points on the graph of various BMI's given from the table,
-	 and when the user hovers over one of the points, it will show more detail of the data point.</p>
+	Query 5 shows the trend of how BMI affects different sports of athletes in summer and winter Olympics.</p>
+
+	Different sports have different optimal body situations for athletes, so the athletes participating in different 
+	sports and different seasons may have significantly different trends in their BMI. <br />
+	This trend can list out different sports and the corresponding average BMI of the athletes to see athletes in which
+	 sports have significantly different BMI compared to others. 
+
 
 	</div>
 	

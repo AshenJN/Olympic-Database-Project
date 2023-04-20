@@ -7,8 +7,11 @@ render(){
 	<h1>query4</h1>
 
 	<p style={{fontSize: "14px"}}>
-	Query 4 shows the rate of the total number of men compared to the total number of women that participated in each team every year 
-	the Olympics was held separated by winter and summer games. </p>
+	Query 4 shows the trend of every countries' scores in different events every year the Olympics was held in the summer and winter based on the amount and type of medals that they won and how many athletes they had competing for each event.
+ </p>
+ This trend analyzes the countries' and regions' performances in different sports. <br />
+ Gold medals are worth 4 points, silvers are worth 2 points and bronzes are worth 1 point. <br />
+ The sum of a country's scores in one sport can show that this country excels at that sport (like China excels at table tennis).
 
 	</div>
 	
