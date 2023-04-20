@@ -19,7 +19,7 @@ render(){
 	<br />
 
 <p></p>
-	<img src={i5} alt="Excel trend for query 5." width="1200" height="800"/>
+	<img src={i5} alt="Excel trend for query 5." width="1100" height="600"/>
 
 	</div>
 	
