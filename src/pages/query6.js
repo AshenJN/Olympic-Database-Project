@@ -20,7 +20,10 @@ at least one medal that is why the number zero does not appear.
  but as the great depression began in the late 1920s, you can see that teams were leaving with only one medal and towards the end of the great depression when world war II began the Olympics were not held since, 
  <br /> no points were plotted in the graph for this time.
  <br />
-<img src={i6} alt="Excel trend for query 6." width="995" height="528"/>
+ <p>
+	
+ </p>
+<img src={i6} alt="Excel trend for query 6." width="1200" height="800"/>
 
 	</div>
 	
