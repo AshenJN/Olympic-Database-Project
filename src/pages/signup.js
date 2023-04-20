@@ -18,6 +18,8 @@ return (
 	  <Link to="/query4">Go to Query 4</Link> 
 	  <br /><br />  
 	  <Link to="/query5">Go to Query 5</Link> 
+	  <br /><br />  
+	  <Link to="/query6">Go to Query 6</Link> 
 	</div>
 
 	
