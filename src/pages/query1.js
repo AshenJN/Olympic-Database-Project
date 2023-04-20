@@ -16,7 +16,7 @@ class query1 extends React.Component {
   render() {
     return (
       <div>
-      <h1>Query 1: The trend of the number of medals won by the top 10 performing teams, separated by  the type of medal, each year.</h1>
+      <h1>Query 1: The trend of the number of medals won by the top 10 performing teams, separated by  the type of medal, each year</h1>
         <p>
 
       The following ten graphs show how many medals each team has won each year, separated by the medal type,  
@@ -26,20 +26,30 @@ class query1 extends React.Component {
         
         </p>
         <br />
+        <p></p>
         <img src={i1} alt="America" width="800" height="400"/>
         <br />
+        <p></p>
         <img src={i12} alt="America"/>
         <br />
+        <p></p>
         <img src={i13} alt="America"/>
         <br />
+        <p></p>
         <img src={i14} alt="America"/>
         <br />
+        <p></p>
         <img src={i15} alt="America"/>
         <br />
+        <p></p>
         <img src={i16} alt="America"/>
+        <p></p>
         <br /> <img src={i17} alt="America"/>
+        <p></p>
         <br /> <img src={i18} alt="America"/>
+        <p></p>
         <br /> <img src={i19} alt="America"/>
+        <p></p>
         <br /> <img src={i110} alt="America"/>
 
 

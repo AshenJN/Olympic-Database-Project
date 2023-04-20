@@ -4,7 +4,7 @@ class query3 extends React.Component {
 render(){
 	return (
 	<div>
-	<h1>Query3: The rate of the total number of men compared to the total number of women that participated in the Olympics each year.</h1>
+	<h1>Query 3: The rate of the total number of men compared to the total number of women that participated in the Olympics each year</h1>
 
 	<p style={{fontSize: "14px"}}>
 	
@@ -18,6 +18,7 @@ render(){
 	 <br /> It is also important to note that starting from the 1980's to the late 2010's there has been a jump between the number of participants. 
 	 <br /> This may be caused due to the economic status of the countries at the time due to recessions in various parts of the world. 
 	 <br /> Thus, countries could not afford to bring as many athletes to the Olympic games.
+	<p></p>
 	 <br /><img src={i3} alt="Excel trend for query 4." />
 	</div>
 	
