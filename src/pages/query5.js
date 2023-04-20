@@ -4,7 +4,7 @@ class query5 extends React.Component {
 render(){
 	return (
 	<div>
-	<h1>query5</h1>
+	<h1>Query5</h1>
 
 	<p style={{fontSize: "14px"}}>
 	Query 5 shows the trend of how BMI affects different sports of athletes in summer and winter Olympics.</p>
