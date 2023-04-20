@@ -16,8 +16,14 @@ render(){
 	<br /> However, when their country collapsed in 1991, they never won the greatest number of medals again, the USA winning the most. 
 	<br /> Due to recessions in the economy, the greatest number of medals taken home fluctuates between 50 and 250 in the years 1994 to 2016.
 	<br />
+<<<<<<< HEAD
 	
 	<img src={i5} alt="Excel trend for query 5." width="660" height="400"/>
+=======
+	<br />
+
+	<img src={i5} alt="Excel trend for query 5." width="1200" height="800"/>
+>>>>>>> 8085b05 (query changes)
 	</div>
 	
 )
