@@ -26,31 +26,21 @@ class query1 extends React.Component {
         
         </p>
         <br />
-        <p></p>
-        <img src={i1} alt="America" width="800" height="400"/>
+        <img src={i1} alt="America" width="852" height="372"/>
         <br />
-        <p></p>
-        <img src={i12} alt="America"/>
+        <img src={i12} alt="USSR"width="852"/>
         <br />
-        <p></p>
-        <img src={i13} alt="America"/>
+        <img src={i13} alt="United Kingdom"width="852"/>
         <br />
-        <p></p>
-        <img src={i14} alt="America"/>
+        <img src={i14} alt="France"width="852"/>
         <br />
-        <p></p>
-        <img src={i15} alt="America"/>
+        <img src={i15} alt="Germany"width="852"/>
         <br />
-        <p></p>
-        <img src={i16} alt="America"/>
-        <p></p>
-        <br /> <img src={i17} alt="America"/>
-        <p></p>
-        <br /> <img src={i18} alt="America"/>
-        <p></p>
-        <br /> <img src={i19} alt="America"/>
-        <p></p>
-        <br /> <img src={i110} alt="America"/>
+        <img src={i16} alt="Italy"width="852"/>
+        <br /> <img src={i17} alt="China"width="852"/>
+        <br /> <img src={i18} alt="Sweden"width="852"/>
+        <br /> <img src={i19} alt="Australia"width="852"/>
+        <br /> <img src={i110} alt="Japan"width="852"/>
 
 
 

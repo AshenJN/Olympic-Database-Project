@@ -42,7 +42,14 @@ const About = () => {
       <p style={{ fontSize: "14px" }}>
         This is a website that allows users to browse data analytics about the
         past olympic games and see trends between medals won, country performance,
-        and top winners, to name a few.
+        and top winners, to name a few.<br />
+
+        The goal of the Olympic Movement is to contribute to building a peaceful and better world by educating youth through sport 
+        practiced without discrimination of any kind and in the Olympic spirit, <br />which requires mutual understanding with a spirit of friendship, solidarity and fair play.
+
+        <br />Given that medals of the Olympic games are some of the highest honors that athletes can earn, many countries invest a lot of funds and resources into their athletes.
+        <br /> It is a perfect way to show a country’s existence in the world through competitive, yet completely peaceful means. 
+        <br />Analyzing the data trends for Olympics can provide people with a different view to history, for example, a sudden drop or increase in medal counts for a country may indicate certain major historic events. 
 
       </p>
       <img src={olym} width="400" height="200" style={{ marginLeft: "50px" }} />
