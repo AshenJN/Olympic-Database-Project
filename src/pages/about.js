@@ -38,10 +38,12 @@ const About = () => {
 
   return (
     <div>
-      <h1>Welcome to the Olympics Database.</h1>
+      <h1>Welcome to the Olympics Database!</h1>
       <p style={{ fontSize: "14px" }}>
         This is a website that allows users to browse data analytics about the
-        past olympic games
+        past olympic games and see trends between medals won, country performance,
+        and top winners, to name a few.
+
       </p>
       <img src={olym} width="400" height="200" style={{ marginLeft: "50px" }} />
       <button onClick={getDataCount}>Run Query</button>
