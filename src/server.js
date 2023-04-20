@@ -27,8 +27,10 @@ app.get("/data", async (req, res) => {
 
     const results = [];
     for (const query of queries) {
+      console.log("Running query: " + query);
       const result = await connection.execute(query);
       results.push(result.rows);
+      console.log("Finished running query!\n");
     }
 
     await connection.close();
