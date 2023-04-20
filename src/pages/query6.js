@@ -23,7 +23,7 @@ at least one medal that is why the number zero does not appear.
  <p>
 	
  </p>
-<img src={i6} alt="Excel trend for query 6." width="1200" height="800"/>
+<img src={i6} alt="Excel trend for query 6." width="1100" height="600"/>
 
 	</div>
 	
