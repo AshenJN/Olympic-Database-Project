@@ -4,7 +4,7 @@ class query4 extends React.Component {
 render(){
 	return (
 	<div>
-	<h1>Query 4: the trend of how BMI affects different sports of athletes in summer and winter Olympics.</h1>
+	<h1>Query 4: The trend of how BMI affects different sports of athletes in summer and winter Olympics</h1>
 	
 
 	This graph shows how BMI directly affects the number of medals won by an athlete. This trend calculates the average amount of medals won per BMI. 
@@ -13,6 +13,10 @@ render(){
 	<br />The average BMI in the world is 18.0 to 25.0  and in this graph, it shows that within this BMI range the range of medal count is between 20 and 35. 
 	<br />So, this graph is useful for teams to see that keeping their athletes healthy and at a normal BMI can be useful in the long run when it comes to winning.
 
+
+<p>
+
+</p>
 
  <img src={i4} alt="Excel trend for query 4." width="1060" height="500"/>
 	</div>
